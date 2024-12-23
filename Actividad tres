@@ -1,0 +1,49 @@
+from kitten import *
+
+def main():
+    # Configuración inicial
+    cat = Kitten()  # Crear el gato
+    cat.speed('fast')  # Configurar velocidad rápida
+    cat.pen_down()  # Bajar el lápiz para dibujar
+    
+    # Trazo del recorrido según las distancias y ángulos
+    cat.move(300)       # Línea recta de 300 unidades
+    cat.turn_left(90)   # Girar 90° a la izquierda
+    cat.move(20)        # Línea recta de 20 unidades
+    cat.turn_left(90)   # Girar 90° a la izquierda
+    cat.move(120)       # Línea recta de 120 unidades
+    cat.turn_right(135) # Girar 135° a la derecha
+    cat.move(56)        # Línea recta de 56 unidades
+    cat.turn_left(45)   # Girar 45° a la izquierda
+    cat.move(40)        # Línea recta de 40 unidades
+    cat.turn_left(135)  # Girar 135° a la izquierda
+    cat.move(120)       # Línea recta de 120 unidades
+    cat.turn_left(135)  # Girar 135° a la izquierda
+    cat.move(40)        # Línea recta de 40 unidades
+    cat.turn_right(60)  # Girar 60° a la derecha
+    cat.move(28)        # Línea recta de 28 unidades
+    cat.turn_left(45)   # Girar 45° a la izquierda
+    cat.move(20)        # Línea recta de 20 unidades
+    cat.turn_right(135) # Girar 135° a la derecha
+    cat.move(28)        # Línea recta de 28 unidades
+    cat.turn_left(135)  # Girar 135° a la izquierda
+    cat.move(20)        # Línea recta de 20 unidades
+    cat.turn_left(90)   # Girar 90° a la izquierda
+    cat.move(20)        # Línea recta de 20 unidades
+    cat.turn_right(135) # Girar 135° a la derecha
+    cat.move(28)        # Línea recta de 28 unidades
+    cat.turn_left(45)   # Girar 45° a la izquierda
+    cat.move(20)        # Línea recta de 20 unidades
+    cat.turn_left(60)   # Girar 60° a la izquierda
+    cat.move(28)        # Línea recta de 28 unidades
+    cat.turn_left(135)  # Girar 135° a la izquierda
+    cat.move(20)        # Línea recta de 20 unidades
+    cat.turn_left(90)   # Girar 90° a la izquierda
+    cat.move(20)        # Línea recta de 20 unidades
+    
+    # Finalización
+    cat.pen_up()  # Levantar el lápiz para detener el dibujo
+    done()  # Finalizar el programa
+    
+if __name__ == "__main__":
+    main()
